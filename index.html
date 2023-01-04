@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Encriptador</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>    
+    </head>
+        <body class="body">
+            <main class="main">
+                <div class="encrip">
+                    <div class="usuario">
+                    <label class="label" for="input-texto">Solo letras minúsculas y sin acento..........</label>
+                    <textarea class="text-input" type="text" name="input-texto" id="input-texto" placeholder="INGRESE SU TEXTO AQUÍ"></textarea>
+                    </div>
+                    <div class="botones">
+                        <input class="btn1" type="button" value="encriptar !" id="btn-encriptar" >
+                        <input class="btn2" type="button" value="desencriptar !" id="btn-desencriptar">
+                    </div>
+                </div>
+                <section class="msg__box">
+                   <div class="contenedor"> 
+                       
+                            <textarea class="texto__msj" id="texto__msj" cols="35" rows="37"></textarea>
+                        
+                        <div class="muñeco" id="muñeco">
+                            <img class="img" id="img" src="imagen/muñeco.png" >
+                            <h2>Ningun mensaje fue encontrado</h2>
+                            <p>Ingrese el texto que desea encriptar o desencriptar</p>
+                        </div>
+                        <div class="copy" id="copy">
+                            <input class="btn-msg" type="button" value="copiar" id="btn-copy">
+                        </div>
+                    </div> 
+                </section>
+                
+            </main>
+            <footer class="footer">
+                <p class="p">Creado por Miserantino Damian</p>
+            </footer>
+            <script src='main.js'></script>
+        </body>
+            
+</html>
